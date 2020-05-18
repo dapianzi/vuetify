@@ -1,6 +1,6 @@
 {
   "heading": "# Mutation observer",
-  "headingText": "`v-mutate` 指令使用了 [Mutation Observer API](https://developer.mozilla.org/en-US/docs/Web/API/MutationObserver)。它提供了一个易于使用的接口，用于检测元素被更新的时间。",
+  "headingText": "`v-mutate` 指令使用了 [Mutation Observer API](https://developer.mozilla.org/en-US/docs/Web/API/MutationObserver)。它提供了一个易于使用的接口，用于检测元素被更新的次数。",
   "examples": {
     "usage": {
       "desc": "默认情况下，`v-mutate` 指令将启用 [Mutation Observer API](https://developer.mozilla.org/en-US/docs/Web/API/MutationObserver) 中所有可用的选项。 这可以通过两种方式之一加以修改。你可以使用 **handler** 和 **options** 传递对象，也可以使用 `v-mutate.attr.sub=\"onMutate\"` 的 _modifier_ 属性"
